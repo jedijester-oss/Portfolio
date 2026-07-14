@@ -5,6 +5,7 @@ import { useTimelineStore } from '../stores/timelineStore';
 import AboutMeCard from './AboutMeCard.vue';
 import AboutThisSiteCard from './AboutThisSiteCard.vue';
 import TimelineSection from './TimelineSection.vue';
+import LiveStats from './LiveStats.vue';
 
 const store = useTimelineStore();
 const { aboutMe, aboutThisSite } = storeToRefs(store);
@@ -22,6 +23,7 @@ onMounted(() => {
             <TimelineSection />
             <p>&nbsp;</p>
             <AboutThisSiteCard :about-this-site="aboutThisSite" />
+            <live-stats />
         </section>
     </div>
 </template>

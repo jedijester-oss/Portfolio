@@ -1,5 +1,7 @@
+
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
+import './echo';
 import TimelineIndex from './components/TimelineIndex.vue';
 
 const app = createApp(TimelineIndex);

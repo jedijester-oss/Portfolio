@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Timeline</title>
+    <title>Bruce Flett, Software Developer</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen bg-slate-50 text-slate-900">
+<body class="bg-noir-bg text-gray-200 crt-scanlines crt-flicker">
     <div id="app"></div>
 </body>
 </html>

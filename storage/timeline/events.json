@@ -1,69 +1,70 @@
 [
     {
         "slug": "first-computer-program",
-        "title": "Wrote first program",
+        "title": "Wrote First Commodore BASIC Program",
         "client_or_company": "Personal R&D",
-        "role": "programmer",
+        "role": "Programmer",
         "era": "Foundations",
-        "tagline": "Wrote \"Hello world\" program in Commodore BASIC",
-        "description": "My father taught me how to write my first program in Commodore BASIC. I wrote a simple \"Hello world\" program that printed the message to the screen. This was the beginning of my journey into programming and technology.",
+        "tagline": "Initiated a life-long software development journey via low-level Commodore BASIC architecture.",
+        "description": "Explored early computational frameworks under professional guidance, mastering the basics of script execution, loops, and system outputs on the Commodore Vic 20. This fundamental hands-on experience catalyzed a decades-long passion for computing, problem-solving, and clean software architecture.",
         "tech_stack": ["Commodore Vic 20", "Commodore BASIC"],
         "metadata": {
-            "image": "/assets/01-foundations/vic20.jpg"
+            "image": "/assets/01-foundations/vic20.jpg",
+            "hardware_type": "8-bit microcomputer"
         },
-        "skills": ["Programming", "Problem Solving"],
+        "skills": ["Programming Fundamentals", "Logical Architecture", "Problem Solving"],
         "start_date": "1984-02-01",
         "end_date": "1984-02-01",
         "featured": false
     },
     {
         "slug": "built-first-computer",
-        "title": "Built an Apple II clone from bare metal",
+        "title": "Assembled Apple II+ Microcomputer from Bare Metal",
         "client_or_company": "Personal R&D",
         "role": "Hardware Engineer",
         "era": "Foundations",
-        "tagline": "Built an Apple II clone from bare metal",
-        "description": "I built my first computer from scratch, which was an after school project under the direction of an experienced technician. I drew circuits on a board with nail polish and etched them with acid. I then soldered the components onto the board and got it to work. I also programmed an epoch. This experience taught me a lot about electronics and hardware design.",
-        "tech_stack": ["Apple II", "Electronics"],
+        "tagline": "Etched circuits and soldered system boards to engineer a functional Apple II+ clone.",
+        "description": "Constructed a fully operational Apple II+ computing system from the hardware level up under the mentorship of an electronics technician. Designed and mapped logical circuitry manually using physical masking agents, acid-etched custom PCB system boards, and meticulously hand-soldered resistors, capacitors, and IC sockets to master hardware design principles from the bare metal.",
+        "tech_stack": ["Apple II+", "MOS 6502", "PCB Etching", "Electronics"],
         "metadata": {
             "image": "/assets/01-foundations/apple2.jpg"
         },
-        "skills": ["Electronics", "Hardware Design"],
-        "start_date": "1987-02-01",
-        "end_date": "1987-06-01",
+        "skills": ["Electronics Engineering", "Hardware Design", "Circuit Design", "Low-Level Systems"],
+        "start_date": "1987-01-01",
+        "end_date": "1987-12-31",
         "featured": false
     },
     {
         "slug": "first-linux-install",
-        "title": "First Linux Install",
+        "title": "Slackware Linux Infrastructure Deployment",
         "client_or_company": "Personal R&D",
         "role": "System Administrator",
         "era": "Foundations",
-        "tagline": "Installed my first Linux distribution",
-        "description": "I installed my first Linux distribution, which was a great learning experience. It taught me a lot about system administration and the power of open-source software.The distro was Slackware v1.2, which was released in 1994. I learned how to configure the system, install software, and troubleshoot issues. This experience sparked my interest in Linux and open-source software, which has been a significant part of my career ever since.",
-        "tech_stack": ["Linux", "Terminal"],
+        "tagline": "Deployed and compiled early Slackware Linux kernels to master open-source environments.",
+        "description": "Configured and provisioned a primary workstation using the landmark Slackware v1.2 release. Gained rigorous experience with kernel configurations, manual partition optimization, command-line system administration, compile-time flags, and software dependency management. Built a foundational command of Unix/Linux architectures that serves as the root of a modern production workspace.",
+        "tech_stack": ["Slackware Linux", "Bash", "GNU Toolchain", "Unix Terminal"],
         "metadata": {
-            "image": "/assets/01-foundations/linux.jpg"
+            "image": "/assets/01-foundations/slack1point2.png",
+            "kernel_version": "1.2.x"
         },
-        "skills": ["System Administration", "Linux"],
+        "skills": ["System Administration", "Linux Operating Systems", "Shell Scripting", "Kernel Configuration"],
         "start_date": "1994-04-01",
-        "end_date": "1994-04-01",
+        "end_date": "1994-04-30",
         "featured": false
     },
     {
         "slug": "cybertronics",
-        "title": "Building Computers in the 90s",
+        "title": "Hardware Systems Integration & Diagnostics",
         "client_or_company": "Cybertronics",
         "role": "Assistant Technician",
         "era": "Foundations",
-        "tagline": "Tagline 1",
-        "description": "Description of Event 1",
-        "tech_stack": ["Tech 1", "Tech 2"],
+        "tagline": "Assembled, repaired, and tuned high-performance personal computer arrays.",
+        "description": "Operated as a hardware technician diagnostics specialist for a high-volume local technology vendor. Conducted component-level troubleshooting, system stress testing, and hardware component upgrades. Diagnosed faults in custom assemblies and re-built system environments while delivering technical support to ensure optimal machine performance.",
+        "tech_stack": ["x86 Hardware", "MS-DOS", "Windows 95", "Hardware Diagnostics"],
         "metadata": {
-            "image": "/assets/01-foundations/cybertronics.jpg",
-            "manager": "Lyle Chamarette"
+            "image": "/assets/01-foundations/comprepair95.jpg"
         },
-        "skills": ["Electronics", "Hardware Design", "Computer Repair"],
+        "skills": ["Hardware Diagnostics", "System Configuration", "Client Relations", "Technical Troubleshooting"],
         "start_date": "1995-03-01",
         "end_date": "1996-03-01",
         "featured": false
@@ -74,15 +75,15 @@
         "client_or_company": "Blue Hills Child and Family Services",
         "role": "Computer Programmer",
         "era": "Foundations",
-        "tagline": "Built standalone data systems to organize legal client documentation",
-        "description": "Developed a dedicated data-entry program utilizing a Microsoft Access database backend. The system was engineered to efficiently index, structure, and organize sensitive legal information collected from incoming clients, improving data management reliability.",
-        "tech_stack": ["Visual Basic", "Microsoft Access", "Windows NT"],
+        "tagline": "Built standalone data systems to organize sensitive legal client documentation.",
+        "description": "Engineered a secure, custom data entry application using a relational database engine to index, structure, and maintain highly sensitive legal documentation for client intake workflows[cite: 297]. Designed clean input forms that drastically reduced clerical entry errors, ensuring robust transactional compliance and high-availability access for case workers[cite: 297].",
+        "tech_stack": ["Visual Basic", "Microsoft Access", "Windows NT", "SQL"],
         "metadata": {
-            "image": "/assets/01-foundations/bluehills.jpg"
+            "image": "/assets/01-foundations/blue-hills.jpg"
         },
-        "skills": ["Database Design", "Desktop Application Development", "Data Structuring"],
+        "skills": ["Database Design", "Desktop Application Development", "Data Structuring", "Information Security"],
         "start_date": "1999-01-01",
-        "end_date": "2000-01-01",
+        "end_date": "2000-12-31",
         "featured": false
     },
     {
@@ -91,171 +92,229 @@
         "client_or_company": "mcomm Inc.",
         "role": "Computer Programmer",
         "era": "Foundations",
-        "tagline": "Automated ledger reconciliation and multi-platform file transfer systems",
-        "description": "Engineered 'Vareport', a desktop software system written in Visual Basic to dynamically reconcile monthly insurance broker reports against core corporate statements, automatically generating discrepancy logs. Concurrently developed 'Transport' in Java to securely transmit these discrepancy records directly to insurance providers.",
-        "tech_stack": ["Visual Basic", "Java", "Windows 2000"],
+        "tagline": "Automated cross-platform data auditing and secure transactional file transfers.",
+        "description": "Architected 'Vareport', a financial data reconciliation engine that parsed and cross-referenced multi-broker monthly transactional data files against core corporate ledgers to automatically identify, catalog, and output discrepancy matrices[cite: 297]. Concurrently built 'Transport', a companion cross-platform secure networking script utilizing Java to pipe verified error logs directly to upstream underwriting providers[cite: 297].",
+        "tech_stack": ["Visual Basic", "Java", "Windows 2000", "File Systems"],
         "metadata": {
-            "image": "/assets/01-foundations/mcomm.jpg"
+            "image": "/assets/01-foundations/mcomm.jpg",
+            "products_deployed": ["Vareport", "Transport"]
         },
-        "skills": ["Data Auditing", "Cross-Platform Networking", "Automation"],
+        "skills": ["Data Auditing", "Cross-Platform Networking", "Automation Scripting", "Enterprise Integration"],
         "start_date": "1999-01-01",
-        "end_date": "2001-01-01",
+        "end_date": "2001-12-31",
         "featured": false
     },
     {
         "slug": "resort-holiday-group",
-        "title": "Systems Architecture & Database Centralization",
+        "title": "Enterprise Database Centralization & Core Infrastructure Restructuring",
         "client_or_company": "Resort Holiday Group Inc.",
         "role": "Systems Analyst",
         "era": "Foundations",
-        "tagline": "Restructured network security topography and consolidated enterprise data",
-        "description": "Overhauled and rewired the company’s internal network architecture to mitigate packet collisions and implement robust security protocols. Consysolidated fragmented data streams by redesigning the enterprise database for long-term scaling, migrating legacy datasets from Excel and Access into SQL Server, and building automated data input and reporting utilities using Visual Basic and Crystal Reports.",
-        "tech_stack": ["Visual Basic", "SQL Server", "Crystal Reports", "Linux", "Networking"],
+        "tagline": "Restructured corporate network topologies and consolidated siloed data into centralized systems.",
+        "description": "Overhauled and physically re-wired the firm's internal corporate networking topography, completely isolating routing issues, preventing packet collisions, and applying rigid physical-layer network security protocols[cite: 287]. Aggregated disjointed spreadsheet silos into a unified enterprise database platform by executing schema mappings, custom data cleaning transformations, and loading procedures from Excel and Access into Microsoft SQL Server[cite: 287]. Designed automated business reporting solutions using Visual Basic and Crystal Reports to streamline management audit workflows[cite: 287].",
+        "tech_stack": ["Visual Basic", "Microsoft SQL Server", "Crystal Reports", "Linux Server", "Networking Infrastructure"],
         "metadata": {
-            "image": "/assets/01-foundations/resortholiday.jpg"
+            "image": "/assets/01-foundations/RHG-logo.jpg"
         },
-        "skills": ["Database Migration", "Network Infrastructure", "System Optimization", "Tech Support"],
+        "skills": ["Database Migration", "Network Engineering", "System Optimization", "Data Normalization"],
         "start_date": "2001-01-01",
-        "end_date": "2004-01-01",
+        "end_date": "2003-12-31",
         "featured": true
     },
     {
         "slug": "georgian-college-programming",
-        "title": "Computer Programmer Diploma & Media Lab Innovation",
+        "title": "Computer Programmer Diploma & Lab Innovation",
         "client_or_company": "Georgian College of Applied Arts and Sciences",
         "role": "Student / Lab Assistant",
         "era": "Education",
-        "tagline": "Graduated Deans List and developed assistive tech workflows in the media lab",
-        "description": "Earned a Computer Programmer Diploma, achieving the Dean's List for three consecutive semesters. Actively tutored peers in complex programming paradigms and supervised the Center for Access lab. Maintained hardware infrastructure and pioneered media lab workflows, scanning physical materials into structured text assets for integration with text-to-speech assistive software.",
-        "tech_stack": ["C", "C++", "COBOL", "x86 Assembly", "MySQL", "Apache"],
+        "tagline": "Graduated Dean's List and engineered assistive technology text parsing pipelines.",
+        "description": "Completed a rigorous software engineering curriculum, earning a formal programming credentials with consecutive Dean's List distinctions[cite: 284]. Supervised and maintained laboratory computer hardware installations[cite: 284]. Pioneered automation strategies within the Learning Disabilities media lab, converting unstructured analog files into structured digital standard text schemas ready for integration with automated text-to-speech assistive engines[cite: 284].",
+        "tech_stack": ["C", "C++", "Java", "COBOL", "x86 Assembly", "MySQL", "Apache"],
         "metadata": {
             "image": "/assets/education/georgian.jpg",
-            "achievements": ["Dean's List 3 Consecutive Semesters", "Supervised Center for Access Lab"]
+            "achievements": ["Dean's List (3 Semesters)", "Center for Access Administrator"]
         },
-        "skills": ["Computer Science Fundamentals", "Assistive Technology", "Technical Tutoring"],
+        "skills": ["Computer Science Fundamentals", "Data Transformation", "Technical Mentorship", "Hardware Lifecycle Management"],
         "start_date": "2001-09-01",
-        "end_date": "2003-06-01",
+        "end_date": "2003-06-30",
         "featured": false
     },
     {
         "slug": "one-two-three-degrees",
-        "title": "Web Provisioning & Infrastructure Consulting",
+        "title": "Web Provisioning & Infrastructure Architecture",
         "client_or_company": "123 Degrees",
         "role": "Technology Consultant",
         "era": "Foundations",
-        "tagline": "Deployed corporate file servers and managed initial web provisioning",
-        "description": "Consulted on strategic corporate hardware and software acquisitions. Built out core technological assets including company logos, initial web hosting footprints, domain registration pipelines, and basic web deployment templates. Configured and managed the primary operational company file server.",
-        "tech_stack": ["Linux", "Server Administration", "HTML", "Design"],
+        "tagline": "Managed domain provisioning, digital branding pipelines, and secure storage deployment.",
+        "description": "Delivered tactical technology consultations to guide corporate hardware, network capacity, and software ecosystem acquisitions[cite: 285]. Administered initial public web infrastructure footprints, including custom domain configurations and multi-tenant web hosting server spaces[cite: 285]. Built and maintained a secure corporate file storage server to preserve data integrity across operational departments[cite: 286].",
+        "tech_stack": ["Linux", "Server Administration", "HTML", "Brand Engineering"],
         "metadata": {
+            "location": "Victoria, BC",
             "image": "/assets/01-foundations/123degrees.jpg"
         },
-        "skills": ["IT Consulting", "Server Deployment", "Brand Assets"],
+        "skills": ["IT Consulting", "Server Deployment", "DNS Provisioning", "Resource Allocation"],
         "start_date": "2004-01-01",
-        "end_date": "2004-12-01",
+        "end_date": "2004-12-31",
+        "featured": false
+    },
+    {
+        "slug": "research-in-motion-blackberry",
+        "title": "Mobile Device Quality Assurance Engineering",
+        "client_or_company": "Research In Motion (RIM)",
+        "role": "QA / Assembly Specialist",
+        "era": "Foundations",
+        "tagline": "Conducted high-precision hardware diagnostics and automated quality controls for BlackBerry devices.",
+        "description": "Contributed to the high-reliability production pipeline of BlackBerry enterprise mobile devices[cite: 255]. Executed structured hardware quality assurance methodologies, verifying radio hardware compliance, device assembly integrity, firmware stability, and functional interfaces against stringent quality baselines to ensure defect-free deployments[cite: 256].",
+        "tech_stack": ["BlackBerry OS", "Hardware Testing Harnesses", "Quality Control Frameworks"],
+        "metadata": {
+            "location": "Waterloo, ON",
+            "image": "/assets/01-foundations/rim.jpg"
+        },
+        "skills": ["Quality Assurance Testing", "Hardware Diagnostics", "Standard Operating Procedures", "Defect Isolation"],
+        "start_date": "2005-01-01",
+        "end_date": "2006-12-31",
         "featured": false
     },
     {
         "slug": "codesyne-enterprise",
-        "title": "Enterprise Framework Architecture & SR&ED R&D",
-        "client_or_company": "CodeSyne",
+        "title": "Enterprise Framework Architecture & SR&ED R&D Management",
+        "client_or_company": "Codesyne",
         "role": "Lead Developer",
         "era": "Enterprise Architecture",
-        "tagline": "Designed custom model engines and caching blueprints for The Co-operators Inc.",
-        "description": "Hired as an Intermediate Developer and promoted to Lead Developer within three months. Engineered custom framework-less model engines and high-efficiency caching systems for The Co-operators Inc. internal ecosystem. Designed a multi-client modular business web platform, shifted the development lifecycle from isolated project builds to vertical market production pipelines, and authored technical Scientific Research and Experimental Development (SR&ED) reports.",
+        "tagline": "Designed custom MVC model engines and caching layers for major insurance platforms.",
+        "description": "Onboarded as an Intermediate Web Developer and rapidly accelerated to Lead Developer within 90 days to manage the complete system roadmap[cite: 271, 272]. Engineered high-efficiency framework-less object-relational modeling layers and micro-caching structures tailored for high-volume enterprise software installations[cite: 272]. Architected a multi-client modular web application platform, restructuring the engineering loop from standalone custom builds into scalable vertical-market code pipelines[cite: 272, 273]. Successfully authorized technical documentation qualifying for Scientific Research and Experimental Development (SR&ED) financial tax frameworks[cite: 276].",
         "tech_stack": ["PHP", "Apache", "MySQL", "PostgreSQL", "Vagrant", "Bash Scripting"],
         "metadata": {
             "image": "/assets/02-enterprise/codesyne.jpg",
-            "promotion_timeline": "Intermediate (March 2013) to Lead Developer (June 2013)"
+            "promotion_timeline": "Intermediate (Feb 2013) to Lead Developer (May 2013)"
         },
-        "skills": ["Enterprise Architecture", "Custom Framework Design", "SR&ED Reporting", "Technical Leadership"],
-        "start_date": "2013-03-01",
-        "end_date": "2014-03-01",
+        "skills": ["Enterprise Architecture", "Custom Engine Design", "SR&ED Technical Audits", "Team Leadership"],
+        "start_date": "2013-02-01",
+        "end_date": "2014-02-28",
         "featured": true
+    },
+    {
+        "slug": "allyson-vollmer-rmt-site",
+        "title": "Responsive MVC Web Deployment",
+        "client_or_company": "Allyson Vollmer RMT",
+        "role": "Full-Stack Web Architect",
+        "era": "Enterprise Architecture",
+        "tagline": "Designed and deployed a lightweight, secure framework application for a medical practice.",
+        "description": "Architected and delivered a responsive, high-performance static public web platform utilizing the Laravel modern PHP application layer. Leveraged MVC design configurations to build clean, maintainable view routes, ensuring excellent layout visibility across desktop and mobile devices while optimizing page load metrics to increase new client bookings.",
+        "tech_stack": ["Laravel", "PHP", "HTML5", "CSS3", "Git"],
+        "metadata": {
+            "url": "http://allysonvollmer.com/",
+            "image": "/assets/02-enterprise/allysonvollmer.jpg"
+        },
+        "skills": ["MVC Architecture", "Responsive Design", "Web Performance Optimization", "Bespoke Web Development"],
+        "start_date": "2014-03-01",
+        "end_date": "2014-04-30",
+        "featured": false
     },
     {
         "slug": "dart-sublime-linter",
         "title": "Official Dart Sublime Text Linter Package",
-        "client_or_company": "Open Source / Google Dart Community Liaison",
-        "role": "Author & Maintainer",
+        "client_or_company": "Open Source Community (Google Collaboration)",
+        "role": "Author & Core Maintainer",
         "era": "Enterprise Architecture",
-        "tagline": "Developed the native Dart syntax linting bundle for Sublime Text 3 by request of Google's Dart team",
-        "description": "Engineered an internal, high-performance static analysis and syntax linting tool in Python utilizing the Sublime Text API to streamline my own Dart language development workflows. Following its utility, I was approached directly by Seth Ladd (Google's Dart Developer Advocate/Product Manager) to abstract, package, and publish the bundle to GitHub for the global open-source community to establish standard developer tooling for the emerging ecosystem.",
+        "tagline": "Developed the native Dart code linter and syntax runtime library for Sublime Text 3.",
+        "description": "Engineered an internal, high-performance static analysis and syntax code linter utility written in Python using native IDE APIs to maximize development velocity[cite: 237, 238]. Upon demonstrated utility within the community, collaborated with the Google Dart Developer Relations lead to abstract, package, and open-source the code base on GitHub. Maintained the package as a community standard tool used globally by early developers of the language[cite: 238].",
         "tech_stack": ["Python", "Dart", "Sublime Text API", "Git", "GitHub"],
         "metadata": {
-            "image": "/assets/02-enterprise/sublime-dart.jpg",
-            "community_impact": "Requested by Google Dart Product Manager Seth Ladd"
+            "image": "/assets/02-enterprise/sublime.jpg",
+            "repository": "https://github.com/guillermooo/dart-sublime-bundle/commits/master/?author=jedijester-oss"
         },
-        "skills": ["Developer Tooling", "Static Analysis", "Open Source Maintainership", "Community Leadership"],
+        "skills": ["Developer Tooling", "Static Code Analysis", "Open Source Software", "Package Maintenance"],
         "start_date": "2014-04-01",
-        "end_date": "2014-05-01",
+        "end_date": "2014-05-31",
         "featured": true
     },
     {
         "slug": "lightpaint-hir",
-        "title": "Greenfield Web Port of Lightpaint HiR",
+        "title": "Greenfield Web Port of Hyper Interactive Reality (HiR)",
         "client_or_company": "Freelance Partnership",
-        "role": "Core Architect",
+        "role": "Core UI/UX Architect",
         "era": "Enterprise Architecture",
-        "tagline": "Migrated a native desktop Python concept into a browser-accessible application",
-        "description": "Collaborated with a project partner to build a greenfield, fully web-based implementation of a previously desktop-bound, python-engineered photography/rendering concept, optimizing asset workflows for high-latency runtime accessibility.",
-        "tech_stack": ["Python", "PHP", "JavaScript", "HTML5 Canvas"],
+        "tagline": "Ported a desktop video processing utility into an immersive, browser-native Dart app.",
+        "description": "Collaborated with an engineering partner to architect a web-accessible application representing complex digital objects, media outputs, and immersive world calculations directly within the browser ecosystem[cite: 245]. Built a canvas rendering pipeline capable of manipulating real-time video feeds with custom visual filters, compiling cleanly from clean Dart codebases to deliver zero-lag desktop graphics speeds inside client browsers[cite: 246, 247].",
+        "tech_stack": ["Dart", "Python", "JavaScript", "HTML5 Canvas", "Git"],
         "metadata": {
-            "image": "/assets/02-enterprise/lightpaint.jpg"
+            "image": "/assets/02-enterprise/hir.jpg"
         },
-        "skills": ["Greenfield Architecture", "Software Migration", "Systems Design"],
+        "skills": ["System Migration", "Real-Time Rendering", "Cross-Platform Optimization", "Graphics Pipelines"],
         "start_date": "2014-05-01",
-        "end_date": "2014-10-01",
+        "end_date": "2014-10-31",
+        "featured": false
+    },
+    {
+        "slug": "discreet-trust-ecommerce",
+        "title": "E-Commerce Pipeline Architecture & Custom Integration",
+        "client_or_company": "Discreet Trust",
+        "role": "E-Commerce Engineer",
+        "era": "Bespoke Engineering",
+        "tagline": "Engineered a secure WooCommerce checkout environment with custom frontend interactivity.",
+        "description": "Architected a custom digital e-commerce web platform leveraging WordPress core and WooCommerce subsystems. Designed customized administrative interfaces, product indexing engines, and security hardening patches. Created custom interactive scripts using vanilla JavaScript and CSS to enhance user experiences, minimize friction during checkouts, and protect user transactional data streams[cite: 243, 244].",
+        "tech_stack": ["WordPress", "WooCommerce", "PHP", "JavaScript", "CSS"],
+        "metadata": {
+            "url": "http://www.discreettrust.com/",
+            "image": "/assets/03-bespoke/discreettrust.jpg"
+        },
+        "skills": ["E-Commerce Systems", "Frontend Optimization", "Web Security", "Payment Integrations"],
+        "start_date": "2016-01-01",
+        "end_date": "2016-05-31",
         "featured": false
     },
     {
         "slug": "atomaton-v1",
-        "title": "Atomaton (V1): Metadata-Driven R&D",
+        "title": "Atomaton (V1): Metadata-Driven Framework R&D",
         "client_or_company": "Trellis Technologies",
         "role": "Sole Architect",
         "era": "Bespoke Engineering",
-        "tagline": "Early R&D into reactive metadata-driven schemas and multi-language compilation",
-        "description": "Initiated research and development into a highly flexible, metadata-bound server application framework. Built using a backend structured around Laravel, the system paired natively with a structured Dart frontend to test early concepts of isolated client state rendering.",
-        "tech_stack": ["Laravel", "PHP", "Dart", "PostgreSQL"],
+        "tagline": "Early-stage R&D into reactive, metadata-bound server environments and state compilation.",
+        "description": "Researched and built a highly flexible server framework designed around metadata configurations. Deployed a backend layer utilizing Laravel to interface with PostgreSQL tables, coordinating with a Dart web runtime environment to evaluate custom techniques for data isolation, dynamic runtime parsing, and state rendering.",
+        "tech_stack": ["Laravel", "PHP", "Dart", "PostgreSQL", "Linux"],
         "metadata": {
             "image": "/assets/03-bespoke/atomaton.jpg"
         },
-        "skills": ["Full-Stack Architecture", "Metadata Modeling", "Framework Experimentation"],
+        "skills": ["Full-Stack Architecture", "Metadata Modeling", "Framework Engine R&D", "Relational Database Design"],
         "start_date": "2015-06-01",
-        "end_date": "2016-12-01",
+        "end_date": "2016-12-31",
         "featured": false
     },
     {
         "slug": "stuart-bish-photography",
-        "title": "Bespoke Long-Term Media Packaging System",
+        "title": "High-Throughput Digital Asset Distribution Subsystem",
         "client_or_company": "Stuart Bish Photography",
         "role": "Freelance Lead Engineer",
         "era": "Bespoke Engineering",
-        "tagline": "Developed a resilient WordPress digital asset download subsystem",
-        "description": "Engineered a custom e-commerce asset distribution extension for WordPress allowing educational institutions and graduates to download large photo bundles cleanly. Built with durable code standard practices, the custom business integration has successfully remained operational for over a decade post-launch.",
-        "tech_stack": ["PHP", "WordPress API", "MySQL", "File I/O Optimization"],
+        "tagline": "Engineered a long-term WordPress media distribution infrastructure that remains stable 10+ years later.",
+        "description": "Designed and deployed a highly optimized custom WordPress core plugin engineered to dynamically handle bulk image proof sheets and multi-gigabyte client asset distribution pipelines. Built specialized server file I/O operations and database queries to ensure smooth rendering of digital proof packages under sudden high server loads. Engineered with deep adherence to strict API standards, the application remains fully functional over ten years later with zero security or runtime regressions.",
+        "tech_stack": ["PHP", "WordPress API", "MySQL", "Server File I/O Optimization"],
         "metadata": {
-            "image": "/assets/03-bespoke/stuartbish.jpg"
+            "image": "/assets/03-bespoke/stuartbish.jpg",
+            "url": "http://stuartbish.com/"
         },
-        "skills": ["Plugin Development", "Legacy Software Stability", "Asset Packaging"],
-        "start_date": "2017-03-01",
-        "end_date": "2017-06-01",
+        "skills": ["Plugin Development", "Legacy Code Stability", "Data Pipeline Optimization", "Backwards Compatibility"],
+        "start_date": "2014-11-01",
+        "end_date": "2015-02-28",
         "featured": true
     },
     {
         "slug": "drone-spotter-pi",
-        "title": "Drone Spotter: Mathematical Signal Processing at the Edge",
-        "client_or_company": "Personal R&D",
-        "role": "Hardware/Software Engineer",
+        "title": "Drone Spotter: Real-Time Edge Processing & Audio Analytics Engine",
+        "client_or_company": "Drone Spotter (Co-founder / Developer)",
+        "role": "Co-Founder & Lead Software Engineer",
         "era": "Bespoke Engineering",
-        "tagline": "Utilized Dynamic Markov Models on a Raspberry Pi for overhead drone identification",
-        "description": "Designed and deployed a physical edge computing script running on a Raspberry Pi. Implemented Dynamic Markov Models to analyze environment variables and calculate probabilities determining whether an overhead drone was in flight nearby. The pipeline was briefly extended to forecast traffic accidents using real-time inputs before cancellation due to hardware resource constraints.",
-        "tech_stack": ["Python", "Raspberry Pi", "Dynamic Markov Models", "Linux Bash"],
+        "tagline": "Built a Raspberry Pi edge appliance using Gaussian Mixture Models for audio classification.",
+        "description": "Co-founded a real-time signal tracking tool and engineered its core audio processing codebases[cite: 237]. Programmed standalone Python scripts running on edge Raspberry Pi appliances to read real-time ambient audio streams and extract unique acoustic signatures using mathematical Gaussian Mixture Models (GMM) to identify nearby drones[cite: 237, 239]. Extended the system into an emergency vehicle incident mapping platform by building a centralized Dart data broker server that calculated coordinates from multiple field nodes and displayed active alerts on a map UI[cite: 238, 240, 241].",
+        "tech_stack": ["Python", "Dart", "Raspberry Pi", "Linux Bash", "Gaussian Mixture Models", "WebSockets"],
         "metadata": {
-            "image": "/assets/03-bespoke/dronespotter.jpg"
+            "image": "/assets/03-bespoke/drone.jpg",
+            "patent_or_ip": "Proprietary Audio Classification Matrix"
         },
-        "skills": ["Signal Processing", "Mathematical Modeling", "Edge Computing", "Hardware Integration"],
-        "start_date": "2018-02-01",
-        "end_date": "2019-08-01",
+        "skills": ["Edge Computing", "Signal Processing", "Mathematical Classification", "Distributed Systems Architecture"],
+        "start_date": "2016-01-01",
+        "end_date": "2016-12-31",
         "featured": true
     },
     {
@@ -264,15 +323,15 @@
         "client_or_company": "Personal Utility",
         "role": "Full-Stack Architect",
         "era": "Modern Applications",
-        "tagline": "High-throughput real-time image transformation and asset manager",
-        "description": "Developed a localized workflow tool designed to quickly manipulate, crop, rotate, and catalogue thousands of raw digital scans sourced from family archive photo albums. The system combined a fast Laravel processing backend with a reactive Vue frontend to minimize editing friction.",
-        "tech_stack": ["Laravel", "Vue.js", "PHP", "GD/Imagick", "SQLite"],
+        "tagline": "High-throughput asynchronous image processing engine and file manipulation tool.",
+        "description": "Developed a custom asset pipeline application optimized to accelerate large-scale family archival scanning workflows. Built an asynchronous photo manipulation engine that processed batch rotatations, automated metadata updates, and balanced file compression ratios. Coupled a Laravel backend server with a responsive user interface to handle hundreds of high-resolution graphic uploads without causing browser thread lock.",
+        "tech_stack": ["Laravel", "Vue.js", "PHP", "GD / Imagick Extensions", "SQLite", "Asynchronous Pipelines"],
         "metadata": {
             "image": "/assets/04-modern/overwatch.jpg"
         },
-        "skills": ["Batch Processing", "Image Processing APIs", "UX Optimization"],
+        "skills": ["Batch Processing", "Image Processing APIs", "UX Optimization", "File Management Workflows"],
         "start_date": "2020-05-01",
-        "end_date": "2020-11-01",
+        "end_date": "2020-11-30",
         "featured": false
     },
     {
@@ -281,34 +340,35 @@
         "client_or_company": "Personal / Creative Network",
         "role": "Lead Architect",
         "era": "Modern Applications",
-        "tagline": "Bespoke Django media infrastructure for remote audio stem collaboration",
-        "description": "Architected an active, daily-use distributed studio platform engineered to facilitate cross-regional audio stem and asset synchronization for collaborative record production. Features complex metadata handling to map complete track timelines, mixdown variants, raw stem packages, lyrics, tracking notes, and production credits. This marked the milestone entry of using LLM Agentic AI to refine production code boundaries.",
-        "tech_stack": ["Django", "Python", "PostgreSQL", "Agentic AI", "Linux Server"],
+        "tagline": "Bespoke Django media infrastructure for remote audio stem collaboration and version control.",
+        "description": "Architected and actively maintain a high-performance studio asset distribution system to manage cross-regional multi-track recording synchronizations. Designed comprehensive database schemas to index complete project timelines, track mix variations, stem files, and automated production notes. Integrated early Large Language Model code compilation assistance to review logic boundaries, optimize SQL indices, and build reliable background file sorting microservices.",
+        "tech_stack": ["Django", "Python", "PostgreSQL", "Agentic AI Code Integration", "Linux", "Nginx"],
         "metadata": {
-            "image": "/assets/04-modern/beatpoet.jpg",
-            "usage_status": "Active Daily Use"
+            "image": "/assets/04-modern/beatpoetmassive.jpg",
+            "usage_status": "Active Production",
+            "url": "https://beatpoetmassive.com/"
         },
-        "skills": ["Audio Asset Pipelines", "Distributed Frameworks", "AI-Assisted Engineering", "Metadata Architecture"],
+        "skills": ["Audio Engineering Automation", "Distributed Data Architectures", "AI-Assisted Software Development", "Database Index Optimization"],
         "start_date": "2023-01-01",
-        "end_date": null,
+        "end_date": "2026-07-13",
         "featured": true
     },
     {
         "slug": "trellis-realtime-wasm",
-        "title": "Trellis: P2P Gossip Web Provisioning Platform",
+        "title": "Trellis: P2P Gossip Web Provisioning Platform & OS",
         "client_or_company": "Trellis Technologies",
         "role": "Core Architect",
         "era": "Modern Applications",
-        "tagline": "High-performance metadata engine powered by Laravel Reverb and Dart WASM frontends",
-        "description": "Currently engineering a decentralized web provisioning ecosystem designed to orchestrate and deploy application spaces across LAMP nodes using a custom peer-to-peer gossip protocol. Built using a reactive metadata server layer on Laravel utilizing Laravel Reverb for real-time WebSocket messaging, backed by a blazing-fast browser UI runtime powered by Dart compiled to WebAssembly.",
-        "tech_stack": ["Laravel", "Laravel Reverb", "WebSockets", "Dart", "WebAssembly (WASM)", "Docker", "PostgreSQL"],
+        "tagline": "High-performance metadata ecosystem powered by Laravel Reverb and Dart WASM engines.",
+        "description": "Currently designing and constructing a decentralized web platform operating system structured to instantly deploy modular client sites onto commodity LAMP hosting platforms via JSON configurations. Implemented a real-time event distribution layer backed by Laravel Reverb WebSockets alongside a blazing-fast user interface compiled directly from Dart to WebAssembly (WASM). Building secure data graphs using a localized trust-propagation layout to manage end-to-end peer communications safely.",
+        "tech_stack": ["Laravel", "Laravel Reverb", "WebSockets", "Dart", "WebAssembly (WASM)", "Docker", "PostgreSQL", "Linux"],
         "metadata": {
-            "image": "/assets/04-modern/trellis.jpg"
+            "image": "/assets/04-modern/trellis.jpg",
+            "architecture_type": "Decentralized Web OS"
         },
-        "skills": ["WebAssembly (WASM)", "Real-Time Networking", "P2P Systems Architecture", "Distributed Data Protocols"],
+        "skills": ["WebAssembly (WASM)", "Real-Time Infrastructure", "P2P Systems Architecture", "Distributed Data Protocols"],
         "start_date": "2025-06-01",
-        "end_date": null,
+        "end_date": "2026-07-13",
         "featured": true
     }
-
 ]

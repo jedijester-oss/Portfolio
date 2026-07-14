@@ -39,7 +39,7 @@
 
 @utility box-glow-hover {
     transition: all 0.3s ease-in-out;
-    &:hover {
+    &:hover, &:focus, &:focus-within {
         box-shadow: 0 0 15px rgba(57, 255, 20, 0.3), inset 0 0 12px rgba(57, 255, 20, 0.1);
         border-color: var(--color-terminal-green);
     }

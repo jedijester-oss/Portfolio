@@ -23,7 +23,7 @@ const resetFilters = () => store.clearFilters();
 </script>
 
 <template>
-    <section class="group mb-6 rounded-2xl border border-noir-border/80 bg-noir-surface/90 p-4 shadow-sm backdrop-blur transition duration-300 hover:shadow-lg">
+    <section tabindex="0" class="group mb-6 rounded-2xl border border-noir-border/80 bg-noir-surface/90 p-4 shadow-sm backdrop-blur transition duration-300 hover:shadow-lg">
         <div class="mb-3 flex flex-wrap items-center justify-between gap-3">
             <div>
                 <h2 class="text-lg font-semibold text-white">Filter the timeline</h2>
@@ -39,7 +39,7 @@ const resetFilters = () => store.clearFilters();
         </div>
 
         <div class="overflow-hidden transition-all duration-300">
-            <div class="max-h-1 overflow-hidden opacity-100 transition-all duration-300 group-hover:max-h-[400px] group-hover:opacity-100">
+            <div class="max-h-[400px] overflow-hidden opacity-100 transition-all duration-300 sm:max-h-1 sm:group-hover:max-h-[400px] sm:group-hover:opacity-100">
                 <div class="space-y-4">
                     <div>
                         <p class="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">Era</p>

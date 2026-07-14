@@ -63,6 +63,7 @@ const markImageBroken = (slug) => {
                     <article
                         v-for="event in events"
                         :key="event.slug"
+                        tabindex="0"
                         class="group shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-md backdrop-blur bg-noir-surface border border-noir-border rounded-xl p-6 box-glow-hover hover:text-terminal-green"
                     >
                         <div class="flex items-start justify-between gap-3">
@@ -90,13 +91,13 @@ const markImageBroken = (slug) => {
                         </div>
 
                         <div class="mt-4 overflow-hidden transition-all duration-300">
-                            <div class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-none group-hover:opacity-100">
+                            <div class="max-h-none overflow-hidden opacity-100 transition-all duration-300 sm:max-h-0 sm:opacity-0 sm:group-hover:max-h-none sm:group-hover:opacity-100">
                                 <div class="grid gap-4 md:grid-cols-[0.8fr_1.6fr]">
                                     <img
                                         v-if="event.metadata?.image && !isImageBroken(event.slug)"
                                         :src="event.metadata.image"
                                         :alt="`${event.title} preview`"
-                                        class="h-32 w-full rounded-xl border border-noir-border/60 object-cover"
+                                        class="h-auto md:h-32 w-full rounded-xl border border-noir-border/60 object-cover md:object-cover"
                                         @error="markImageBroken(event.slug)"
                                     />
 

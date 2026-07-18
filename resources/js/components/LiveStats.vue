@@ -34,6 +34,6 @@ onMounted(async () => {
         <div class="text-xs uppercase tracking-wider text-terminal-dim mb-2">// TELEMETRY_STREAM ACTIVE //</div>
         <div>TOTAL_LOGGED_HITS: <span class="text-white text-glow-intense">{{ metrics.total_hits }}</span></div>
         <div>UNIQUE_RESOLVED_NODES: <span class="text-white text-glow-intense">{{ metrics.unique_nodes }}</span></div>
-        <div>ACTIVE_REVERB_CONNS: <span class="text-white text-glow-intense">{{ metrics.active_connections }}</span></div>
+        <div>ACTIVE_WEBSOCKETS: <span class="text-white text-glow-intense">{{ metrics.active_connections }}</span></div>
     </div>
 </template>
